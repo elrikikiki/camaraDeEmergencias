@@ -4,11 +4,52 @@
 .mouseHeader {
     transition: all infinite;
   }
-  
+
+/* Trasnformación */
+@keyframes titulo {
+  from {
+      transform: translate(-200px);
+      opacity: 0;
+
+  }
+  to {
+      transform: translate(0);
+      opacity: 1;
+  }
+
+
+}
+.titulo {
+  animation-name: titulo;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
   .mouseHeader:hover {
     border-top: 3px #48a5bb solid;
   }
-
+  .mouseHeader2 {
+    transition: all infinite;
+  }
+  
+  .mouseHeader2:hover {
+    background:linear-gradient(rgba(102, 175, 209, 0.623), rgba(31, 174, 231, 0.623));
+  }
+  .mouseHeader1 {
+    transition: all infinite;
+  }
+  
+  .mouseHeader1:hover {
+    background:linear-gradient(rgba(102, 175, 209, 0.623), rgba(31, 174, 231, 0.623));
+  }
+  .mouseHeaderNoticias {
+    transition: all infinite;
+  }
+  
+  .mouseHeaderNoticias:hover {
+    background:linear-gradient(rgba(211, 219, 223, 0.479), rgba(75, 70, 70, 0.363));
+  }
 @media (max-width: 575) and (min-width: 150) {
   .convertidor1 {
     background-color: aliceblue;
@@ -72,6 +113,13 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.imagenOcho {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(https://img.freepik.com/fotos-premium/pongase-contacto-nosotros-mano-empresario-sosteniendo-telefono-inteligente-movil-icono-correo-telefono-correo-electronico_52701-38.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .btn-color-inicio {
   background-color: #48a5bb;
 }
@@ -103,4 +151,7 @@
 }
 .alturaImgNoticias {
   height: 20rem;
+}
+.bgDrop {
+  background-color: rgb(255, 249, 249)
 }
