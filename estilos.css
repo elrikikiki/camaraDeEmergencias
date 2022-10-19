@@ -4,7 +4,9 @@
 .mouseHeader {
     transition: all infinite;
   }
-
+  .mouseHeader:hover {
+    border-top: 3px #48a5bb solid;
+  }
 /* Trasnformación */
 @keyframes titulo {
   from {
@@ -26,9 +28,7 @@
   animation-timing-function: linear;
 }
 
-  .mouseHeader:hover {
-    border-top: 3px #48a5bb solid;
-  }
+
   .mouseHeader2 {
     transition: all infinite;
   }
@@ -58,11 +58,17 @@
 .bgInicioNovedades {
   background-color: #d89858;
 }
+.bgGradient {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
 .colorNaranja {
   color: #e9901d;
 }
 .colorVerde {
   color: #9ebb32;
+}
+.colorAzul {
+  color: #48a5bb;
 }
 .bg-naranja {
   background: #e9901d;
@@ -76,49 +82,44 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  
 }
 .imagenTres  {
   background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(https://img.freepik.com/foto-gratis/grupo-personas-trabajando-plan-negocios-oficina_1303-15768.jpg?w=2000);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  
 }
 .imagenCuatro {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(./images/fondoNosotros\ \(1\).png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 .imagenCinco {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(https://www.uncuyo.edu.ar/bienestar/cache/rcp_800_900.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 .imagenSeis {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(https://www.acudiremergencias.com.ar/wp-content/uploads/5-2-1200x1798.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 .imagenSiete {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(https://segurosypensionesparatodos.fundacionmapfre.org/media/blog/diferencia-coberturas-servicios-1194x535-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 .imagenOcho {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(https://img.freepik.com/fotos-premium/pongase-contacto-nosotros-mano-empresario-sosteniendo-telefono-inteligente-movil-icono-correo-telefono-correo-electronico_52701-38.jpg?w=2000);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 .btn-color-inicio {
   background-color: #48a5bb;
@@ -154,4 +155,25 @@
 }
 .bgDrop {
   background-color: rgb(255, 249, 249)
+}
+.imagenBlancoNegro {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  -webkit-transition: all 0,3s;
+  -moz-transition: all 0,3s;
+  -ms-transition: all 0,3s;
+  -o-transition: all 0,3s;
+  transition: all 0,3s;
+}
+.imagenBlancoNegro:hover {
+  filter: grayscale(0%);
+  -webkit-transition: all 0,3s;
+  -moz-transition: all 0,3s;
+  -ms-transition: all 0,3s;
+  -o-transition: all 0,3s;
+  transition: all 0,3s;
 }
