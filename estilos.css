@@ -1,6 +1,9 @@
 .fontFamily {
   font-family: 'Roboto Condensed', sans-serif ;
 }
+.bg-white-soft {
+  background-color: #f0f0f0;
+}
 .mouseHeader {
     transition: all infinite;
   }
@@ -83,7 +86,7 @@
 }
 .imagenDos  {
   height: 100%;
-  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(./images/Proyecto\ nuevo.png);
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(./images/mpho-mojapelo-s6Vv9u2qZyc-unsplash\ \(1\).jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -122,7 +125,7 @@
   background-size: cover;
 }
 .imagenOcho {
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(https://img.freepik.com/fotos-premium/pongase-contacto-nosotros-mano-empresario-sosteniendo-telefono-inteligente-movil-icono-correo-telefono-correo-electronico_52701-38.jpg?w=2000);
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -184,6 +187,25 @@
   background-position: center;
   background-size: cover;
   height: 100%;
+}
+.btn-wsp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 55px;
+  bottom:10px;
+  right:25px;
+  background:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+.btn-wsp:hover{
+  background: #20ba5a;
 }
 .btn-color-inicio {
   background-color: orange;

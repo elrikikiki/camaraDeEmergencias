@@ -8,19 +8,33 @@
     <meta name="description" content="Información sobre la misión, visión, objetivos y valores de la institución, el deber ser de la cámara.">
     <meta name="keywords" content="Nosotros, equipo de trabajo, misión, objetivos y unidades.">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favi.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <!-- Acá hay que escribir el SEO, una vez terminada la página -->
     <title>CEEICBA - Nosotros</title>
     <style>
         @media (min-width: 200px){
-          #mobile-back{ background-color: rgb(255, 249, 249) ;
-         }
+          .imgMap {
+            height: 25rem;
+            width: 20rem;
+          }
+          .heigResp {
+            height: 17rem;
+          }
         }
         @media (min-width: 768px){
+          .imgMap {
+            height: 25rem;
+            width: 30rem;
+          }
+          .heigResp {
+            height: 27rem;
+          }
          }
         @media (min-width: 992px){
           
@@ -35,7 +49,7 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav id="mobile-back" class="navbar fontFamily navbar-expand-lg sticky-top">
+    <nav class="navbar bg-white fontFamily navbar-expand-lg sticky-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="./images/logo-CEEICba.png" alt="Logotipo de CEEICba" width="72" height="58">
@@ -64,12 +78,12 @@
             <li class="nav-item mouseHeader">
               <a class="nav-link" href="noticias.html">NOTICIAS</a>
             </li>
-            <li class="nav-item mouseHeader">
+            <!-- <li class="nav-item mouseHeader">
               <a class="nav-link" href="beneficios.html">BENEFICIOS</a>
             </li>
             <li class="nav-item mouseHeader">
               <a class="nav-link" href="biblioteca.html">BIBLIOTECA</a>
-            </li>
+            </li> -->
             <li class="nav-item mouseHeader">
               <a class="nav-link" href="contacto.html">CONTACTO</a>
             </li>
@@ -77,13 +91,7 @@
             <!-- REDES -->
             <!-- WhatsApp -->
             <ul class="navbar-nav">
-              <li class="nav-item">
-              <a class="nav-link" target="_blank" href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="46" height="26" fill="green" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                    </svg><span>0351-383939</span>
-              </a>
-            </li>
+              
             <!-- Facebook -->
             <li class="nav-item">
               <a class="nav-link" target="_blank" href="https://www.facebook.com/profile.php?id=100079970286602">
@@ -108,18 +116,17 @@
 
       <!-- Nosotros inicio -->
       <main>
-        <div class="position-relative imagenNueve p-3 p-md-5">
-          <!-- TITULO CON IMAGEN DE FONDO -->
-            <div class="col-md-9 p-lg-5 mx-auto my-5 fontFamily">
-                <h2 class="display-5 fw-bold text-white">CEEICBA</h2>
-                <h3 class="text-white">Contamos con más de 30 empresas afiliadas en toda la provincia.</h3>
-            </div>
+        <div class="container">
+          <div class="row border-bottom text-center">
+            <p class="display-2 bold pt-3 colorNaranja">CEEICBA</p>
+            <p class="display-6 bold">La cámara de servicios de emergencias más representativa de la Provincia de Córdoba</p>
+          </div>
         </div>
         <!-- Comienza el texto con imagen -->
         <div class="container-fluid mt-5">
         <div class="container" data-aos="fade-right">
             <a name="quienesSomos"><div class="clearfix mt-4"></a>
-              <img src="./images/camaEmergencia.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" alt="...">
+              <img src="./images/mapa-arg.png" class="col-md-6 float-md-end mb-3 ms-md-3 imgMap" alt="Mapa Argentina">
               <h3 class="fw-bold fontFamily colorNaranja">Quiénes somos</h3>
               <p class="text-secondary">
                 Somos la más grande y prestigiosa cámara de servicios de emergencias pre hospitalario de la Provincia
@@ -138,7 +145,7 @@
                 otros.</p>
             </div>
             <!-- MISION,VALORES Y VISIÓN -->
-            <div class="row">
+            <div class="row border-top">
               <div class="col mt-2">
               <div class="dropdown">
                 <button class="btn bg-fluid-inicio fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -181,7 +188,7 @@
             </div>
             <!-- NUESTRAS UNIDADES -->
             <a name="nuestrasUnidades"></a>
-            <div class="row" data-aos="fade-right">
+            <div class="row border-top" data-aos="fade-right">
               <div class="col "><h3 class="fw-bold mt-2 mb-2 fontFamily colorNaranja">Nuestras unidades</h3>
               <p class="text-secondary">Contamos con más de 130 móviles operativos, la flota más completa para el tratamiento
                 de emergencias y urgencias médicas (UTIM), unidades para visitas domiciliarias y
@@ -191,9 +198,64 @@
                 la mejor atención médica.</p>
               </div>
             </div>
-            <div class="row" data-aos="fade-right">
-              <img src="https://pbs.twimg.com/media/EWEbXRrXkAEBYyI.jpg" class="imgResponsiveAmbulancia mb-2" alt="Ambulancia">
+            <div class="row justify-content-center mb-4" data-aos="fade-right">
+              <div class="col-md-6">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/car1.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car2.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car3.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car4.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car5.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car6.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car7.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car8.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car14.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car15.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car16.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car17.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car18.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/car19.jpeg" class="d-block w-100 heigResp" alt="ambulancia">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
             </div>
+          </div>
           </div>
         </div>
       </main>
@@ -257,7 +319,18 @@
           </div>
         </footer>
       </div>
-
+<!-- BTN WSP -->
+<div class="container-fluid sticky-bottom">
+  <div class="row ">
+    <div class="col-4"></div>
+    <div class="col-4"></div>
+    <div class=" col-4 text-end mb-2">
+      <a href="" class="btn-wsp" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+    </a>
+    </div>
+  </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
